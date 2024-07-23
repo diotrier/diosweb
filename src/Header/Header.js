@@ -7,7 +7,7 @@ const Header = () => {
         <Container>
             <Div1>
                 <h1>
-                    dio trie ramadhan
+                    this is a header
                 </h1>
             </Div1>
         </Container>
