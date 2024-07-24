@@ -29,7 +29,7 @@ const Hero = () => {
                         <HeroLeftContainer>
                             <motion.div {...headTextAnimation}>
                                 <Title>
-                                    H1, I&apos;m {Bio.name}
+                                    Hi, I&apos;m {Bio.name}
                                 </Title>
                                 <TextLoop>
                                     a <span>
