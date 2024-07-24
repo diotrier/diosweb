@@ -29,7 +29,7 @@ export const Title = styled.div`
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
-  color: ${(props) => props.theme.color.text_primary};
+  color: ${(props) => props.theme.colors.text_primary};
   @media ${(props) => props.theme.breakpoints.md} {
     margin-top: 12px;
     font-size: 32px;
@@ -69,8 +69,8 @@ export const ToggleButton = styled.div`
     border-radius: 4px;
   }
   ${({ active, theme }) =>
-        active &&
-        `
+    active &&
+    `
   background:  ${theme.primary + 20};
   `}
 `;
