@@ -17,7 +17,7 @@ import {
 const Hero = () => {
 
     return (
-        <div id='Projects'>
+        <div id='/'>
             <HeroContainer>
                 <HeroBg>
                     <HeroBgAnimation />

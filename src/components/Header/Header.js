@@ -37,18 +37,18 @@ const Header = () => {
                 </MobileIcon>
 
                 <NavItems>
-                    <NavLink href='#projects'>Projects</NavLink>
                     <NavLink href='#tech'>Technologies</NavLink>
+                    <NavLink href='#projects'>Projects</NavLink>
                     <NavLink href='#about'>About</NavLink>
                 </NavItems>
 
                 {isOpen && (
                     <MobileMenu isOpen={isOpen}>
-                        <NavLink onClick={() => setIsOpen(!isOpen)} href="#projects">
-                            Projects
-                        </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#tech">
                             Technologies
+                        </NavLink>
+                        <NavLink onClick={() => setIsOpen(!isOpen)} href="#projects">
+                            Projects
                         </NavLink>
                         <NavLink onClick={() => setIsOpen(!isOpen)} href="#about">
                             About
@@ -60,9 +60,7 @@ const Header = () => {
                             <SocialIcons href="https://google.com">
                                 <AiFillLinkedin size="3rem" />
                             </SocialIcons>
-                            <SocialIcons href="https://google.com">
-                                <AiFillInstagram size="3rem" />
-                            </SocialIcons>
+
                         </Icon>
 
                     </MobileMenu>
@@ -75,9 +73,7 @@ const Header = () => {
                     <SocialIcons href="https://google.com">
                         <AiFillLinkedin size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://google.com">
-                        <AiFillInstagram size="3rem" />
-                    </SocialIcons>
+
                 </Div3>
 
             </NavbarContainer>

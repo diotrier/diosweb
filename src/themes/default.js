@@ -13,6 +13,8 @@ const theme = {
         background2: "hsl(232.7,27.3%,23.7%)",
         card_light: "#191924",
         text_primary: "#F2F3F4",
+        text_secondary: "#b1b2b3",
+        primary: "#854CE6",
     },
     // Breakpoints for responsive design
     breakpoints: {
