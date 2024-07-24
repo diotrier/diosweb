@@ -17,10 +17,11 @@ export const Section = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: ${(props) => props.nopadding ? "0" : "16px 16px 0"} ;
-
+    padding: ${(props) => props.nopadding ? "0" : "16px 6px 0"} ;
+    margin:auto;
     width: calc(100vw - 32px);
     flex-direction: column;
+    overflow-x:hidden;
   }
 `
 
@@ -83,8 +84,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ?
-        'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-        'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : ""};
 

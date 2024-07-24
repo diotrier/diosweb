@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
   html {
-    font-size: 62.5%;
+    font-size: 80%;
     scroll-behavior: smooth;
 
   }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
-  backgroun-color:${({ theme }) => theme.colors.background2}
+  background-color:${(props) => props.theme.colors.background2};
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -33,6 +33,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
+    display:none;
   }
 `;
 export const Div3 = styled.div`
@@ -43,6 +44,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    display:none;
   }
 `;
 
@@ -113,6 +115,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
+font-size:1rem;
 color: white;
 border-radius: 50px;
   padding: 8px;
@@ -123,4 +126,5 @@ border-radius: 50px;
     
   }
 `
+
 
