@@ -54,10 +54,10 @@ const Header = () => {
                             About
                         </NavLink>
                         <Icon>
-                            <SocialIcons href="https://google.com">
+                            <SocialIcons href="https://github.com/diotrier?tab=repositories" target='_blank'>
                                 <AiFillGithub size="3rem" />
                             </SocialIcons>
-                            <SocialIcons href="https://google.com">
+                            <SocialIcons href="https://www.linkedin.com/in/dio-trie-ramadhan-845515217/" target='_blank'>
                                 <AiFillLinkedin size="3rem" />
                             </SocialIcons>
 
@@ -67,10 +67,10 @@ const Header = () => {
                 )}
 
                 <Div3>
-                    <SocialIcons href="https://google.com">
+                    <SocialIcons href="https://github.com/diotrier?tab=repositories" target='_blank'>
                         <AiFillGithub size="3rem" />
                     </SocialIcons>
-                    <SocialIcons href="https://google.com">
+                    <SocialIcons href="https://www.linkedin.com/in/dio-trie-ramadhan-845515217/" target='_blank'>
                         <AiFillLinkedin size="3rem" />
                     </SocialIcons>
 
