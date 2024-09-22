@@ -30,6 +30,11 @@ export const skills = [
                 image:
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
             },
+            {
+                name: "Vue Js",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/512px-Vue.js_Logo_2.svg.png",
+            },
 
             {
                 name: "HTML",
@@ -46,9 +51,9 @@ export const skills = [
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
             },
             {
-                name: "Bootstrap",
+                name: "Tailwind",
                 image:
-                    "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png",
             },
             {
                 name: "Material UI",
@@ -390,8 +395,8 @@ export const projects = [
             "React Flow",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/DecisionHub",
-        webapp: "https://decisionhub.netlify.app/",
+        github: "https://github.com/diotrier/diotrier",
+        webapp: "https://diotrier.github.io/diotriermdhan.github.io/",
     },
     {
         id: 9,
@@ -415,8 +420,8 @@ export const projects = [
             "Redux",
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Trackify",
-        webapp: "https://trackify-management.netlify.app/",
+        github: "https://github.com/diotrier/diotrier/blob/main/Covid19",
+        webapp: "https://public.tableau.com/app/profile/dio.trie.ramadhan/viz/Covid19_Indonesia_16764621176130/Dashboard1",
     },
     {
         id: 0,
@@ -428,8 +433,8 @@ export const projects = [
             "/assets/p2.png",
         tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
         category: "web app",
-        github: "https://github.com/rishavchanda/Podstream",
-        webapp: "https://podstream.netlify.app/",
+        github: "",
+        webapp: "",
         member: [
             {
                 name: "Rishav Chanda",
@@ -447,23 +452,20 @@ export const projects = [
     },
     {
         id: 1,
-        title: "Iphone15",
+        title: "Meals Search",
         date: "2024",
         description:
-            "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+            "designing a web application using Vue and public APIs.",
         image:
-            "assets/p3.png",
+            "assets/p4.png",
         tags: [
-            "React Js",
-            "MongoDb",
-            "Node Js",
-            "Express Js",
-            "Redux",
-            "NodeMailer",
+            "Vue Js",
+            "Tailwind",
+
         ],
         category: "web app",
-        github: "https://github.com/rishavchanda/Project-Management-App",
-        webapp: "https://vexa-app.netlify.app/",
+        github: "https://github.com/diotrier/project1",
+        webapp: "https://searchmealsproject.vercel.app/",
     },
     // {
     //     id: 2,

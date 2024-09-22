@@ -12,12 +12,14 @@ const ProjectCard = (props) => {
       {/* <Tags>{props.project.tags}</Tags> */}
       <Details>
         <Title>{props.project.title}</Title>
-        <Date>{props.project.date}</Date>
         <Description>{props.project.description}</Description>
       </Details>
 
-      <Button target="_blank">
+      <Button target="_blank" href={props.project.github}>
         View Code
+      </Button>
+      <Button target="_blank" href={props.project.webapp}>
+        Demo
       </Button>
     </Card>
   );
